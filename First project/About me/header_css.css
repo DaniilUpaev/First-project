@@ -1,0 +1,115 @@
+.header {
+	width: 1350px;
+	height: 665px;
+	background: url(mountains.jpg);
+	background-size: 100%;
+}
+
+.portfolio {
+	opacity: 0.2;
+	position: absolute;
+	left: 270px;
+	top: 100px;
+}
+
+.portfolio img {
+    width: 880px;
+	height: 200px;
+}
+
+.social_networks {
+	width: 175px;
+	height: 28px;
+	position: absolute;
+	left: 20px;
+	top: 24px;
+}
+
+.networks {
+	list-style: none;
+}
+
+.networks li {
+    display: inline-block;
+    padding-right: 15px; 
+}
+
+.networks li:hover svg * {
+	fill: #FFFFFF;
+}
+
+.hamburger {
+	width: 60px;
+	height: 30px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+
+.hamburger:hover svg * {
+    fill: #FFFFFF;
+}
+
+.card {
+	width: 165px;
+	height: 205px;
+	position: absolute;
+	margin: auto;
+	top: 85px;
+	left: 590px; 
+}
+
+.avatar {
+	width: 106px;
+	height: 106px;
+	margin: auto;
+	position: relative;
+	top: 15px;
+}
+
+.photo {
+	width: 106px;
+	height: 106px;
+	border-radius: 50%;
+}
+
+.blog_header {
+	display: block;
+	width: 765px;
+	height: 40px;
+	font-size: 30px;
+	padding-top: 5px;
+	margin-top: 13px;
+	position: relative;
+	color: #FFFFFF;
+}
+
+.description {
+	color: #FFFFFF;
+	font-size: 14px;
+	display: block;
+	width: 190px;
+	position: relative;
+}
+
+.svg_left {
+	width: 600px;
+	height: 110px;
+	position: absolute;
+	top: 515px;
+}
+
+.svg_right {
+	width: 675px;
+	height: 110px;
+	position: absolute;
+	top: 515px;
+	right: 0;
+}
+
+.arrow_down {
+	display: block;
+	position: absolute;
+	top: 630px;
+	left: 663px;
+}

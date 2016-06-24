@@ -1,0 +1,48 @@
+.empty_line {
+    display: block;
+    width: 1400px;
+    height: 55px;
+}
+
+.menu {
+	display: block;
+	list-style: none;
+	float: left;
+}
+
+.menu li {
+	width: 200px;
+	height: 40px;
+	margin-bottom: 15px;
+	font-size: 14px;
+	color: #8b969b;
+	padding-right: 10px;
+	padding-top: 2px;
+}
+
+a {
+  text-decoration: none;
+  text-align: right;
+}
+
+.menu li:hover {
+	color: #47c9b4;
+	border-right: 2px solid #00bfa5;
+}
+
+.article {
+	width: 675px;
+	height: 440px;
+	margin-top: 7.5px;
+	float: left;
+	position: absolute;
+	top: -20px;
+	left: 383px;
+}
+
+.datum {
+	width: 120px;
+	height: 30px;
+	margin-top: 7.5px;
+	font-size: 13px;
+}

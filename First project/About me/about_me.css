@@ -1,0 +1,145 @@
+.content {
+	width: 1350px;
+	height: 640px;
+	background: #efeee9;
+}
+
+.left_content {
+    width: 670px;
+    float: left;
+}
+
+.about_header {
+	display: block;
+	position: absolute;
+	left: 35px;
+	top: -40px;
+}
+
+.about_header img {
+    width: 265px;
+	height: 100px;
+	opacity: 0.2;
+}
+
+.about_me_content {
+	width: 305px;
+	height: 640px;
+	float: left;
+}
+
+.title {
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+
+.my_photo_content {
+	width: 360px;
+	height: 320px;
+	float: left;
+}
+
+.photo_content {
+	width: 360px;
+	height: 320px;
+}
+
+.who_am_i_content {
+	padding-top: 5px;
+    width: 350px;
+    height: 310px;
+    position: relative;
+    text-align: center;
+    float: left;
+}
+
+.right_content {
+	width: 669px;
+    float: right;
+}
+
+.what_can_i_do {
+	display: block;
+	width: 180px;
+	height: 40px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: 205px;
+}
+
+.wcid_text {
+	display: block;
+	width: 620px;
+	height: 80px;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.frontend {
+	display: block;
+	width: 550px;
+	height: 100px;
+
+}
+
+.frontend_scores {
+	list-style: none;
+}
+
+.g-circles {
+    fill: none;
+    stroke-width: 16;
+ }
+
+ .sector {
+    stroke-dasharray: 283;
+    stroke-dashoffset: 161;
+    transition: all 1s;
+ }
+
+ .backend {
+ 	display: block;
+ 	width: 650px;
+ 	height: 100px;
+ 	position: relative;
+ }
+
+ .backend_scores {
+ 	list-style: none;
+ 	margin-top: 95px;
+ }
+
+.workflow_ul {
+	list-style: none;
+	position: relative;
+	top: 20px;
+}
+
+.frontend li,.backend_scores li,.workflow_ul li {
+	display: inline-block;
+	padding-right: 25px;
+}
+
+.backend_title {
+    top: 75px;
+ }
+
+ .workflow_title {
+    top: 20px;
+}
+
+.frontend_title,.backend_title,.workflow_title {
+	display: block;
+	margin-left: 45px;
+	font-size: 25px;
+    position: relative;
+}
+
+#map {
+	display: block;
+	width: 1350px;
+	height: 600px;
+}

@@ -1,0 +1,166 @@
+html {
+
+}
+
+.body {
+	display: block;
+	max-width: 1300px;
+    background: url(images/mountains.jpg) no-repeat;
+    background-size: 100%;
+    overflow: hidden;  
+}
+
+.card {
+	position: absolute;
+	top: 20%;
+	display: block;
+	width: 382px;
+	height: 396px;
+	background: #ffffff;
+	opacity: 0.8;
+	border-radius: 2%;
+	margin-left: 35%; !!!
+}
+
+.upper_menu {
+
+}
+
+.avatar {
+	width: 141px;
+	height: 141px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;
+	margin: auto;
+	top: 35px;
+}
+
+.photo {
+   width: 141px;
+   height: 141px;
+}
+
+.name_and_info {
+
+}
+
+.name {
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	top: 15px;
+}
+
+.info {
+	font-size: 15px;
+	text-align: center;
+	position: relative;
+	top: -10px;
+}
+
+.social_networks {
+    text-align: center;
+}
+
+.social_networks ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 25px; 
+}
+
+.git {
+	position: relative;
+	top: 1px;
+}
+
+.vk {
+	position: relative;
+}
+
+svg {
+	fill: #70d1c6;
+}
+
+.social_networks li:hover svg * {
+	fill: #18c3ac;
+}
+
+/*_______________________*/
+
+.lower_menu {
+	width: 440px;
+	position: relative;
+   	top: 35px;
+   	right: 40px;
+}
+
+.links {
+    
+}
+
+.links li {
+	display: inline-block;
+	background: #0ab09d;
+	padding: 16px 34px;
+	border-left: 2px solid #73c8c0;
+	float: left;
+}
+
+.links li {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.links li:hover {
+	background: #048981;
+}
+
+.works {
+    border-radius: 0 0 0 5px;
+}
+
+.about_me {
+
+}
+
+.blog {
+	border-radius: 0 0 5px 0;
+}
+
+/*____________________*/
+
+.authorization {
+	display: block;
+	width: 180px;
+	height: 45px;
+	border: 1px solid #ffffff;
+	border-radius: 5%; 
+	text-align: center;
+	float: right;
+	position: relative;
+	top: 15px;
+}
+
+.authorize {
+    color: #ffffff;
+    position: relative;
+    top: 13px;
+    font-weight: bold;
+}
+
+.authorization:hover {
+	background: #ffffff;
+	opacity: .8;
+}
+
+.authorization:hover .authorize {
+	color: #0ab09d;
+}
+
+.copy {
+	color: #ffffff;
+	position: absolute;
+	bottom: 10px;
+	left: 35%;
+}
